@@ -1,0 +1,446 @@
+@media (max-width: 1415px) {
+
+    /* index.html */
+
+    #header-login {
+        margin-right: 1.5rem;
+    }
+
+    #wsj {
+        margin-top: -8rem;
+    }
+
+}
+
+
+
+
+
+/* Large Desktops */
+@media (max-width: 1399.98px) {
+    
+}
+
+
+
+
+
+/* Desktops */
+@media (max-width: 1199.98px) {
+
+    /* index.html */
+    
+    #web-creator{
+        font-size: 1.6rem;
+        padding-bottom: 0.3rem;
+    }
+
+
+    #carousel-box {
+        width: 31rem;
+        margin-top: 2.5rem;
+    }
+
+}
+
+
+
+
+@media (max-width: 1027px) {
+
+    /* index.html */
+
+    #header-login {
+        margin-right: 4rem;
+    }
+    
+    #usa-today {
+        margin-top: -8rem;
+    }
+
+    #wsj {
+        margin-top: -8rem;
+    }
+    
+
+}
+
+
+
+
+
+/* Tablets */
+@media (max-width: 991.98px) {
+
+    /* index.html */
+
+    #header-login {
+        margin-right: 4rem;
+    }
+
+    #carousel-box {
+        width: 23rem;
+        margin-top: 1.5rem;
+    }
+
+    #phenomenal {
+        font-size: 3.5rem;
+    }
+
+    #paragons {
+        font-size: 3.5rem;
+    }
+
+    #connecting{
+        font-size: 1.12rem;
+    }
+
+    #paragraph {
+        font-size: 0.8rem;
+    }
+
+    #discover-heading {
+        font-size: 1.3rem;
+    }
+
+    #web-creator {
+        padding-bottom: 0.6rem;
+    }
+
+}
+
+
+
+@media (max-width: 815px) {
+
+    /* index.html */
+
+    .logos {
+        margin-top: 7rem;
+    }
+
+    #usa-today {
+        margin-top: 0.1rem;
+    }
+}
+
+
+
+
+
+
+/* Landscape Phones */
+@media (max-width: 767.98px) {
+
+    /* index.html */
+
+    #phen-div {
+        text-align: center;
+    }
+
+    #carousel-box {
+        margin-left: 5rem;
+    }
+
+    #partnership-icons {
+        columns: 1;
+    }
+
+    #success {
+        font-size: 1.5rem;
+    }
+
+    #discover-heading {
+        font-size: 1.4rem;
+    }
+
+    #web-creator {
+        font-size: 1.26rem;
+    }
+
+
+
+    /* login.html */
+
+    #remember-forgot {
+        display: block;
+    }
+
+
+    #button-remember {
+        display: inline;
+        margin-right: 2.5rem;
+    }
+
+    #remember {
+        padding-bottom: 0.5rem;
+    }
+
+    #forgot-pass {
+        margin-left: 4.7rem;
+    }
+
+
+
+    /* register.html */
+
+    #form-register {
+        margin-top: -1rem;
+    }
+
+    #first_name {
+        margin-bottom: 0.5rem;
+    }
+
+    #registered-already  {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+/* Portrait Phones */
+@media (max-width: 575.98px) {
+
+    /* #phenomenal {
+        font-size: 1rem
+    } */
+}
+
+
+
+
+
+@media (max-width: 539px) {
+
+    /* index.html */
+
+    #ny-times {
+        margin-top: -3rem;
+    }
+
+    #usa-today {
+        margin-top: -5rem;
+    }
+
+    #wsj {
+        margin-top: -4rem;
+    }
+
+    #header-login {
+        margin-right: 5rem;
+    }
+
+     #two-cards {
+        display: block;
+    }
+
+    #envision {
+        margin-top: 4rem;
+    }
+
+    #partnership-icons {
+        display: block;
+    }
+
+    #creator-div {
+        margin-top: 3rem;
+    }
+
+    #earning {
+        margin-top: 3rem;
+    }
+
+    #directly {
+        margin-top: 3rem;
+    }
+
+    #discover-heading {
+        margin-top: 38rem;
+    }
+
+}
+
+
+@media (max-width: 507px) {
+
+    /* index.html */
+
+    #bloomberg {
+        margin-bottom: 4rem;
+    }
+
+    .logos {
+        margin-left: 2rem;
+    }
+
+    #usa-today {
+        margin-right: 2rem;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 492px) {
+
+    /* index.html */
+
+    #carousel-box {
+        margin-left: 4rem;
+    }
+
+    #ny-times {
+        margin-top: -3rem;
+    }
+
+    #usa-today {
+        margin-top: -5rem;
+    }
+
+    #wsj {
+        margin-top: -4rem;
+    }
+
+    .section-two {
+        margin-bottom: 12rem;
+        margin-left: 2rem;
+    }
+    
+}
+
+
+@media (max-width: 465px) {
+
+    /* login.html */
+
+    #forgot-pass {
+        font-size: 0.9rem;
+    }
+
+    #username {
+        column-width: 10px;
+    }
+}
+
+
+@media (max-width: 414px) {
+
+    /* index.html */
+
+    #carousel-box {
+        width: 22rem;
+        margin-left: 1.3rem;
+    }
+
+    .section-four {
+        background-size: 50rem;
+        background-repeat: no-repeat;
+        background-position: -180px 300px;
+    }
+
+    #wsj {
+        width: 21rem;
+        margin-left: -2rem;
+    }
+
+    #list {
+        font-size: 1.2rem;
+    }
+
+    /* login.html */
+
+    #login-register {
+        font-size: 1.1rem;
+    }
+
+    .login-section {
+        background: none;
+    }
+
+    /* register.html */
+
+    #registered-already {
+        font-size: 1rem;
+    }
+
+    #register-join {
+        padding-right: 9.5rem;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+    /* index.html */
+
+    #para-logo {
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+
+    #header-button {
+        margin-right: -0.1rem;
+        margin-left: -1rem;
+    }
+
+    #header-register {
+        font-size: 1rem;
+    }
+
+    #carousel-box {
+        width: 19rem;
+        margin-left: 1.8rem;
+    }
+
+    #wsj {
+        width: 20rem;
+        margin-left: -3rem;
+    }
+
+    #list {
+        font-size: 1.2rem;
+    }
+
+    .logo-col {
+        margin-left: 6rem;
+    }
+
+    .section-four {
+        background-size: 40rem;
+        background-repeat: no-repeat;
+        background-position: -125px 300px;
+    }
+
+    .heading-featured-in {
+        margin-top: -7rem;
+    }
+
+
+
+    /* login.html */
+
+    #login-register {
+        font-size: 1.1rem;
+    }
+
+    .login-section {
+        background: none;
+    }
+
+    #registered-already {
+        font-size: 0.86rem;
+    }
+
+    #register-join {
+        padding-right: 9.5rem;
+    }
+}

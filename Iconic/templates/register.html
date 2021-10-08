@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+
+    <section class="register-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card text-center shadow-lg">
+
+                        <div class="card-header">
+                            <h1 id="register-welcome"> Welcome To Paragon!</h1>
+                        </div>
+
+                        <div class="card-body">
+
+                            <form method="POST" class="row g-3" id="form-register">
+                                {{form.hidden_tag()}}
+                                <div class="col-md-4">
+                                    {{form.first_name.label}}
+                                    {{form.first_name(class="form-control", placeholder="Enter First Name Here")}}
+                                </div>
+
+                                <div class="col-md-4" id=last_name>
+                                    {{form.last_name.label}}
+                                    {{form.last_name(class="form-control", placeholder="Enter Last Name Here")}}
+                                </div>
+
+                                <div class="col-md-4">
+                                    {{form.username.label}}
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text" id="at-symbol">@</span>
+                                        {{form.username(class="form-control", id="username_placeholder", placeholder="Enter Username Here")}}
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4" id="register-secondrow">
+                                    {{form.email_address.label}}
+                                    {{form.email_address(class="form-control", placeholder="Enter Email Here")}}
+                                    <div id="emailinfo" class="form-text">We'll never share your email with anyone else.</div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    {{form.password1.label}}
+                                    {{form.password1(class="form-control", placeholder="Enter Password Here")}}
+                                    <div id="passwordinfo" class="form-text">
+                                        Password must be 8-20 characters long, contain letters and numbers, and must not contain spaces and special
+                                        characters.
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    {{form.password_confirm.label}}
+                                    {{form.password_confirm(class="form-control", placeholder="Confirm Password Here")}}
+                                </div>
+
+                                <div class="d-grid gap-2 col-4 mx-auto" id="register-join">
+                                    {{form.submit(class="btn btn-outline-primary")}}
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="card-footer text-muted">
+                        
+                            <div class="d-grid gap-2 col-4 mx-auto" >
+                                <a class="btn btn-warning" href=" {{ url_for('login') }} " role="button" id="registered-already">Already Have An
+                                    Account?</a>
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+
+                    <figure class="text-center">
+                    
+                        <blockquote class="blockquote" id="login-quote">
+                            <p>Have enough courage to start and enough heart to finish.</p>
+                        </blockquote>
+                    
+                        <figcaption class="blockquote-footer" id="login-author">
+                            Jessica N. S. Yourko
+                        </figcaption>
+                    
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    <section>
+
+</body>
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+
+    <section class="login-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col" id="login-col">
+        
+                    <div class="card text-center shadow-lg">
+                        <div class="card-header">
+                            <h1 class="display-6" id="welcome"> Welcome Back!<h1>
+                        </div>
+        
+                        <div class="card-body">
+        
+                            <form method="POST" id="form-login">
+                                
+                                {{form.hidden_tag()}}
+                                <div class="d-grid gap-2 col-8 mx-auto" id="username">
+                                    {{form.username.label}}
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text" id="at-symbol">@</span>
+                                        {{form.username(class="form-control", id="username_placeholder", placeholder="Enter Username Here")}}
+                                    </div>
+                                </div>
+        
+                                <div class="d-grid gap-2 col-8 mx-auto" id="password">
+                                    {{form.password.label}}
+                                    {{form.password(class="form-control", placeholder="Enter Password Here")}}
+                                </div>
+
+                                <div class="row" id="remember-forgot">
+                                    <div class="col-6" id="button-remember">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1" id="remember">Remember Me</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <a href="" id="forgot-pass">Forgot Your Password?</a>
+                                    </div>
+
+                                    <div class="d-grid gap-2 col-8 mx-auto">
+                                        {{form.submit(class="btn btn-outline-primary")}}
+                                    </div>
+
+                                </div>
+        
+                            </form>
+                        </div>
+        
+                        <div class="card-footer text-muted">
+
+                            <div class="d-grid gap-2 col-8 mx-auto">
+                                <a class="btn btn-warning" id="login-register" href=" {{ url_for('register') }} "
+                                    role="button">Don't Have An
+                                    Account?</a>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+        
+                    <div class="d-grid gap-2 col mx-auto">
+                        <figure class="text-center">
+                            <blockquote class="blockquote" id="login-quote">
+                                <p>The most wasted of days is one without laughter.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer" id="login-author">
+                                E.E. Cummings
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+{% endblock %}
